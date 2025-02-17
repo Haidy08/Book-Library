@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>library</title>
+</head>
+<body>
+    <Section class="section1">
+     <div id="base">
+        
+        <h1> <i class="fa-solid fa-book-open-reader"></i> Book Library</h1>
+        <div id="firstform" class="hidden">
+            <label for="inpet-text1">How meny books?</label>
+            <input type="text" id="inpet-text1" placeholder="Please enter no of books">
+            <p id="pforMistake"></p>
+            <button id="accepted-button">Ok</button>
+        </div>
+        <div>
+            <form action=""  class="form hiddn">
+                <label for="" class="form-lable top">Book's Name</label>
+                <input type="text" id="inpet-text2" class="input1" placeholder="Please enter  book name">
+                <p id="forMistake1"> Please Enter A valid Name...</p>
+                <label for="" class="form-lable">Price</label>
+                <input type="text" id="inpet-text2" class="input2" placeholder="Please enter a price">
+                <p id="forMistake2">Please Enter A valid Price...</p>
+                <label for="" class="form-lable">Author Name</label>
+                <input type="text" id="inpet-text2" class="input3" placeholder="Please enter Author Name">
+                <p id="forMistake3" >Please Enter A valid Author Name...</p>
+                <label for="" class="form-lable">Author E-mail</label>
+                <input type="text" id="inpet-text2" class="input4" placeholder="Please enter Author E-mail">
+                <p id="forMistake4">Please Enter A valid E-mail...</p>
+                <button type="submit" id="Add-button">Add Book</button>
+                <p class="counter">  </p>
+            </form>
+        </div>
+        <!-- --------------------------------------------- -->
+         <table id="table" class="hiddn">
+            <thead id="head">
+                <tr>
+                    <th>Book's Name</th>
+                    <th>Price</th>
+                    <th>Author Name</th>
+                    <th>Author E-mail</th>
+                    <th colspan="2">Action</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="body">
+             
+            </tbody>
+         </table>
+
+    
+  </div>
+ </Section>
+     <script type="module"  src="script.js"></script>
+</body>
+</html>
